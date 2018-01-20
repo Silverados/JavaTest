@@ -4,4 +4,8 @@ Git 3.0;
 Git
 FFF
 creating a new branch is fast!
-hello2
+<<<<<<< HEAD
+hello1
+=======
+hello1
+>>>>>>> fea

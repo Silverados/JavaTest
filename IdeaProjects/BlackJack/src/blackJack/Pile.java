@@ -13,7 +13,11 @@ public class Pile {
         String[] temporatys = new String[53];
         List<String> pileList = new ArrayList<String>();
 
-        public List<String> createNormalPiles(){
+    public Pile() {
+
+    }
+
+    public List<String> createNormalPiles(){
 
             for (int j = 1; j <= suits.length; j++) {
                 for (int i = 1; i <= points.length; i++) {

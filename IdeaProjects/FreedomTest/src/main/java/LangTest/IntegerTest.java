@@ -13,6 +13,15 @@ public class IntegerTest {
         System.out.println();
         System.out.println();
 
+        int d = 1_000_000;
+
+
+        int s1 = 20_000_000_00;
+        int s2 = 20_000_000_00;
+//        int s = Math.addExact(s1,s2);
+        System.out.println(s1 + s2);
+
+
 
     }
     
